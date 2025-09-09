@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h5 class="card-title">${product.title}</h5>
             <p class="card-text small text-muted">${product.description}</p>
             <p class="fw-bold">$${product.price}</p>
-            <a href="../cart/index.html" class="btn btn-main">Add to Cart</a>
+            
           </div>
         </div>
       `;
@@ -44,3 +44,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
